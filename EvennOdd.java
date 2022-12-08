@@ -7,12 +7,6 @@ public static void main(String[] args) {
 	int lb=scanner.nextInt();
     System.out.println("enter a ub: ");
     int ub=scanner.nextInt();
-    if(lb>ub)
-    {
-    	System.out.println("lb must be lower than ub");
-    	scanner.close();
-    	return;
-    }
     System.out.println("even and odd numbers between "+lb+" to "+ub);
     int i=lb;
     while(i<=ub)
